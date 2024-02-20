@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rye&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rye&display=swap');
+
+
+:root{
+    --fonte-titulo: "Cinzel", serif;
+    --fonte-subtitulo: "Libre Baskerville", serif;
+    --fonte-texto: "Open Sans", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(183, 178, 178);
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    min-height: 150px;
+}
+
+header h1{
+    padding-top: 70px;
+    font-family: var(--fonte-titulo);
+    font-size: 4em;
+    color: white;
+}
+
+header p{
+    padding-bottom: 60px;
+    color: white;
+    font-size: 2em;
+    font-family: var(--fonte-texto);
+}
+
+main{
+    margin: 0px 25px;
+    background-color: white;
+    min-width: 300px;
+    max-width: 1550px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+main section{
+    padding: 10px;
+}
+
+section h2{
+    font-family: var(--fonte-subtitulo);
+    font-size: 1.7em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+section p{
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 2em;
+    padding: 20px 10px;
+    font-family: var(--fonte-texto);
+    font-size: 18px;
+}
+
+section article{
+    padding: 10px;
+}
+
+article h3{
+    font-family: var(--fonte-subtitulo);
+    padding-left: 3px;
+    font-size: 20px;
+}
+
+article#um{
+    background-image: url('../Imagens/empurrar-flexao2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: inset 16px 16px 13px rgba(0, 0, 0, 0.250);
+}
+
+article#um > h3{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1.33px 1.33px 0px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+article#dois{
+    background-image: url('../Imagens/puxar-barra2.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: inset 16px 16px 13px rgba(0, 0, 0, 0.250);
+}
+
+article#dois > h3{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1.33px 1.33px 0px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+article#tres{
+    background-image: url('../Imagens/treinodeinferior-agachamento.jpg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: inset 16px 16px 13px rgba(0, 0, 0, 0.250);
+}
+
+article#tres > h3{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1.33px 1.33px 0px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+article#quatro{
+    background-image: url('../Imagens/treinoabdomen-abdominal.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: inset 16px 16px 13px rgba(0, 0, 0, 0.250);
+}
+
+article#quatro > h3{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1.33px 1.33px 0px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+
+ aside{
+    background-color: rgb(229, 228, 228);
+    padding: 10px;
+    border-radius: 2px 2px 0px 0px ;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+aside h3{
+    text-align: center;
+    font-family: var(--fonte-texto);
+    padding-bottom: 15px;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+aside a{
+    text-decoration: none;
+    font-family: var(--fonte-texto);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    transition-duration: 0.7s;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.292);
+    font-weight: bolder;
+}
+
+aside a:hover{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer p {
+    font-size: 15.7px;
+    font-family: var(--fonte-texto);
+}
+
+footer a{
+    text-decoration: none;
+    font-family: var(--fonte-texto);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+strong{
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.200);
+}
