@@ -22,6 +22,7 @@
 
 body{
     background-color: rgb(183, 178, 178);
+    min-height: 100vh;
 }
 
 header{
@@ -82,14 +83,15 @@ article h3{
 }
 
 article#um{
-    background-image: url('../Imagens/empurrar-flexao2.jpg');
+    background-image: url('../Imagens/empurrar-flexao4.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
     border-radius: 5px;
-    box-shadow: inset 16px 16px 13px rgba(0, 0, 0, 0.250);
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.399);
+
 }
 
 article#um > h3{
@@ -102,14 +104,14 @@ article#um > h3{
 }
 
 article#dois{
-    background-image: url('../Imagens/puxar-barra2.jpg');
-    background-position: center right;
+    background-image: url('../Imagens/puxar-barra4.jpeg');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
     border-radius: 5px;
-    box-shadow: inset 16px 16px 13px rgba(0, 0, 0, 0.250);
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.399);
 }
 
 article#dois > h3{
@@ -122,14 +124,14 @@ article#dois > h3{
 }
 
 article#tres{
-    background-image: url('../Imagens/treinodeinferior-agachamento.jpg');
-    background-position: left center;
+    background-image: url('../Imagens/treinodeinferior-agachamento3.jpeg');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
     border-radius: 5px;
-    box-shadow: inset 16px 16px 13px rgba(0, 0, 0, 0.250);
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.399);
 }
 
 article#tres > h3{
@@ -142,14 +144,14 @@ article#tres > h3{
 }
 
 article#quatro{
-    background-image: url('../Imagens/treinoabdomen-abdominal.jpg');
+    background-image: url('../Imagens/treinoabdomen1.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
     border-radius: 5px;
-    box-shadow: inset 16px 16px 13px rgba(0, 0, 0, 0.250);
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.399);
 }
 
 article#quatro > h3{
@@ -168,7 +170,6 @@ article#quatro > h3{
     border-radius: 2px 2px 0px 0px ;
     border: 2px solid black;
     text-align: center;
-    margin: 10px;
     margin-bottom: 10px;
 }
 
