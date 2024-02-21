@@ -105,7 +105,7 @@ article#um > h3{
 
 article#dois{
     background-image: url('../Imagens/puxar-barra4.jpeg');
-    background-position: right center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -145,7 +145,7 @@ article#tres > h3{
 
 article#quatro{
     background-image: url('../Imagens/treinoabdomen1.jpeg');
-    background-position: right center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
