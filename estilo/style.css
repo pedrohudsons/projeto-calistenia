@@ -91,7 +91,8 @@ article#um{
     height: 500px;
     border-radius: 5px;
     box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.399);
-
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 article#um > h3{
@@ -112,6 +113,8 @@ article#dois{
     height: 500px;
     border-radius: 5px;
     box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.399);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 article#dois > h3{
@@ -132,6 +135,8 @@ article#tres{
     height: 500px;
     border-radius: 5px;
     box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.399);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 article#tres > h3{
@@ -152,6 +157,8 @@ article#quatro{
     height: 500px;
     border-radius: 5px;
     box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.399);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 article#quatro > h3{
